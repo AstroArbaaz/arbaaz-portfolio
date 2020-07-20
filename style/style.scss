@@ -1,0 +1,29 @@
+#profile-wrapper h4{
+    text-align: center;
+}
+
+#profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 6px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(140, 18, 228);
+}
