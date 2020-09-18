@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="this is a portfolio website">
+    <meta name="keywords" content="Arbaaz, arbaaz, portfolio, website, webdeveloper, developer, Web Developer, web developer portfolio">
+    <meta name="author" content="Arbaaz">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <!-- Font Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <!-- Title -->
+    <title>Arbaaz</title>
+  </head>
+  <body>
+      <br>
+    <div class="container">
+        <h2 style="font-family: 'Montserrat', sans-serif;" class="text-center">Let's Talk</h2>
+        <form action="https://formspree.io/mpzoaeya" method="POST" class="needs-validation mt-5" novalidate >
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationCustom01">First name (Required)</label>
+                <input type="text" class="form-control" name="name" id="validationCustom01" required>
+                <div class="invalid-feedback">
+                    Please Enter your First name.
+                </div>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="validationCustom02">Last name (Required)</label>
+                <input type="text" class="form-control" name="name" id="validationCustom02" required>
+                <div class="invalid-feedback">
+                    Please Enter your Last name.
+                </div>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email (Required)</label>
+                    <input type="email" class="form-control" name="_replyto" id="inputEmail4" required>
+                    <div class="invalid-feedback">
+                        Please Enter your Email Address.
+                    </div>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="validationCustom03">Company name</label>
+                    <input type="text" class="form-control" name="name" id="validationCustom03">
+                </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationCustom04">Subject (Required)</label>
+                <select class="custom-select" name="_subject" id="validationCustom04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>Just Wanna Say Hi!</option>
+                  <option>I have a Project in Mind...</option>
+                  <option>I need a Website or Ecommerce site for my Business.</option>
+                  <option>Interested to Hire Me.</option>
+                  <option>Something else.(please mention in the message area)</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid reason.
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-12 mb-3">
+                    <label for="exampleFormControlTextarea1">Message (Required)</label>
+                    <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                    <div class="invalid-feedback">
+                        Please write a message.
+                    </div>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-danger btn-block col-md-12" type="submit" style="font-family: 'Montserrat', sans-serif;">Submit</button>
+        </form>
+        
+        <br>
+        <a href="./index.html">
+            <button class="btn btn-dark btn-block col-md-4" style="font-family: 'Montserrat', sans-serif;">&#x2190; Back to Home</button>
+        </a>
+          
+        <br>
+        <p class="text-center">
+            <a href="https://twitter.com/ArbaazK14385506" title="Twitter" class="m-2"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/AstroArbaaz" title="Github" class="m-2"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/dev.arbaaz/" title="Instagram" class="m-2"><i class="fab fa-instagram font-weight-bold"></i></a>
+            <a href="https://www.linkedin.com/in/arbaaz-16a42117b/" title="LinkedIn" class="m-2"><i class="fab fa-linkedin-in"></i></a>
+            <a href="./contact.html" title="E-mail: astroarbaaz@gmail.com" class="m-2"><i class="far fa-paper-plane"></i></a>
+        </p>
+    </div>
+
+    <!-- Form Validation JavaScript -->
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+    </script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

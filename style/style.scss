@@ -3,6 +3,14 @@ body{
     color: #16181e;
 }
 
+h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
 .card{
     background-color: #edf4ea;
 }
@@ -22,6 +30,7 @@ body{
 ul{
     padding: 0;
 }
+
 li{
     list-style-type: none;
     display: inline-block;
