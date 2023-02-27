@@ -1,18 +1,26 @@
 body {
-  background-color: rgb(0, 105, 255);
-  color: #16181e;
+  background-color: #000000;
+  color: #ffffff;
 }
 
-h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+h4,
+h5,
+h6 {
+  font-family: Consolas, monaco, monospace;
 }
 
 p {
-  font-family: "Lato", sans-serif;
+  font-family: Consolas, monaco, monospace;
+  font-size: small;
 }
 
 .card {
-  background-color: #edf4ea;
+  background-color: #000000;
+  border-color: #ffffff;
+}
+
+.card > hr {
+  background-color: #ffffff;
 }
 
 #profile-wrapper h4 {
@@ -39,14 +47,19 @@ li {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #ffffff;
 }
 
 a:hover {
   text-decoration: none;
-  color: black;
+  color: #ffffff;
 }
 
 .res {
   color: #3959a2;
+}
+
+.btn {
+  font-family: Consolas, monaco, monospace;
+  font-size: small;
 }/*# sourceMappingURL=style.css.map */
